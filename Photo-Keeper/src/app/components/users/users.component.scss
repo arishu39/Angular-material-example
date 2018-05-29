@@ -1,0 +1,27 @@
+.card-user{
+    padding:20px;
+    min-width:220px;
+    display: inline-block;
+    vertical-align: top;
+    min-height: 150px;
+    .card-pointer{
+        cursor: pointer;
+    }     
+    .card-header-title{
+        font-weight: bold;
+        color: blue;
+    }
+    .card-contents{
+        color:brown;
+        ul{
+            padding-left: 10px;
+            list-style: none;
+            li{
+                vertical-align: top;
+                line-height: 20px;
+                font-size: 14px;
+                color: #666; 
+            }
+        }
+    }
+}

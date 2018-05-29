@@ -1,0 +1,9 @@
+<h1 class="header">Photos</h1>
+<div class="card-photo" *ngFor="let photo of _displayedPhotos">
+<mat-card class="card-background">
+    <img class="image-height" mat-card-image [src]="photo.url">
+    <mat-card-content>
+        <p class="sub-header">{{photo.title}}</p>
+  </mat-card-content>  
+  </mat-card>
+</div>

@@ -1,0 +1,13 @@
+.card-photo{
+    max-width: 220px;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+    .image-height{
+        max-height: 150px;
+        max-width: 220px;
+    }
+    .mat-card-content {
+        min-height: 53px;
+    }
+}
