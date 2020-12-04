@@ -61,17 +61,29 @@ This section has moved here: https://angular.io/start/start-deployment
 In Azure, all the configuration settings are configured in Application Settings of Azure App Service. To run this application locally please follow below steps:
 1. Create a file with name .env at root location (NodeServer/.env)
 2. Add following configurations to that file:
-# Port=3500
-# SiteUrl = http://localhost:3500
-# TenentID=3333
-# ClientID=3333
-# ClientSecret=2222
-# ApiServiceClientID=444444
-# AuthRequired=true
-# ProductToken=44444
-# ServiceApiUrl=https://vmetrics-development.azure-api.net
-# OcpApimTrace=true
-# OcpApimSubscriptionKey=3333
-# APIEnabled=true
-# SessionMaxAge=3200
-# IsCustomResource=false
+Port=3500
+
+SiteUrl = http://localhost:3500
+
+TenentID=3333
+
+ClientID=3333
+
+ClientSecret=2222
+
+ApiServiceClientID=444444
+
+AuthRequired=true
+
+ProductToken=44444
+
+ServiceApiUrl=https://vmetrics-development.azure-api.net
+
+OcpApimTrace=true
+
+OcpApimSubscriptionKey=3333
+
+APIEnabled=true
+
+SessionMaxAge=3200
+IsCustomResource=false
